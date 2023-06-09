@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--CSS-->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Portfolio website</title>
+</head>
+<body>
+    <!---Inicio-->
+
+    <div class="background">
+        <nav>
+            <h2 class="logo">Alex<span>sandro</span></h2><!--Logo-->
+            <ul class="cabeçalho-link">
+                <li><a class="links" href="#inicio">Inicio</a></li>
+                <li><a class="links" href="#sobre-mim">Sobre mim</a></li>
+                <li><a class="links" href="#formação">Formação</a></li>
+                <li><a class="links" href="#hobby">Hobby</a></li>
+                <li><a class="links" href="#contatos">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="Main" id="inicio">
+            <h4>Ola, meu nome é</h4>
+            <h1>Alexsandro <span>Gaiotte</span></h1>
+            <h3>Eu sou um estudante de Engenharia de Software</h3>
+        </div><!--Main-->
+    </div><!--background-->
+
+
+    <!--sobre mim-->
+
+    <section class="background-color-Sobre" id="sobre-mim">
+        <div class="main-sobre">
+            <img src="./img/eu.jpeg">
+            <div class="Text-sobre">
+                <h2>Sobre-Mim</h2>
+                <h5>Universitario de Engenharia de Software na<span> Universidade de Vassouras</span></h5>
+                <p>Meu nome é Alexsando Gaiotte. Estudante do 2º periodo de Engenharia de software pela Universidade de Vassouras.
+                    <br>
+                    Sou natural da cidade de Saquarema, e vivo aqui desde sempre.
+                    <br>
+                    Optei por escolher a área da programação por gostar bastante de tecnologia e tudo relacionado a ela. 
+                </p>
+                
+            </div><!--Text sobre-->
+        </div><!--main sobre-->
+    </section><!--background color Sobre-->
+
+
+    <!--formação-->
+
+    <section class="background-color-formação" id="formação">
+        <div class="main-formação">
+            <img src="./img/eu2.jpeg">
+            <div class="Text-formação">
+                <h2>Formação</h2>
+                <p> Me formei no ensino médio em 2018, na Escola Estadual Ciep 258- Astrogildo Pereira.
+                    <br>
+                    No final de 2019 comecei no curso de formação para o mundo de trabalho (FMT) pela Organização Espro, concluindo o curso em fevereiro de 2021.
+                    <br>
+                    Em Agosto de 2023,entrei para a Universidade de Vassouras, no curso de Engenharia de Software, na qual estou no 2º periodo atualmente.
+                    <br>
+                     Neste 2º periodo, estou matriculado nas disciplinas de Laboratório de Programação de Web Sites; Engenharia de Requisitos e Análise de Sistemas; Gestão Empresarial; Ética, Cidadania e Sociedade; Práticas Extensionistas Integradoras II.
+                     <br>
+                     Em Práticas Extensionistas Integradoras II, estou envolvido em um projeto chamado de "Sistema de Monitoramento de Ruidos(SMDR)",também apelidado carinhosamente como "pardal sonoro".
+                     <br>
+                     Extra:<span> Informatica basica e Ingles intermediario pela S.O.S Express.</span>
+                </p>
+                
+            </div><!--Text-formação-->
+        </div><!--main formação-->
+    </section><!--background color formação-->
+
+    <!--hobby-->
+
+    <div class="Container-hobby">
+        <div class="title" id="hobby">
+            <h2>Hobby</h2>
+        </div><!--title-->
+
+        <div class="Caixa">
+            <div class="Card">
+                <i class="fas fa-user"></i>
+                <h5>Marvel</h5>
+                <div class="Paragrafo">
+                    <p>Sou um grande fã dos quadrinhos e filmes da Marvel.<br> Não é misterio algum que meu heroi favorito seja o Homem Aranha, sendo ele o simbolo do que é ser um heroi e ter que lidar com problemas comuns do dia a dia. </p>
+                </div><!--Paragrafo-->
+            </div><!--Card-->
+
+            <div class="Card">
+                <i class="fas fa-user"></i>
+                <h5>Games</h5>
+                <div class="Paragrafo">
+                    <p>Gosto bastante de jogar, e um dos meus gêneros de jogos favorito é o RPG.<br> Inicialmente, os Games foi um dos motivos pelo qual surgiu meu interesse pela área da tecnologia.</p>
+                </div><!--Paragrafo-->
+            </div><!--Card-->
+
+            <div class="Card">
+                <i class="fas fa-bell"></i>
+                <h5>Mangá/Livros</h5>
+                <div class="Paragrafo">
+                    <p>Em minhas horas vagas, eu costumo ler alguns mangás e livros.<br> Tenho um carinho por Black Clover e Solo Leveling, pois são obras que te insentivam a seguir em frente e superar barreiras. </p>
+                </div><!--Paragrafo-->
+            </div><!--Card-->
+        </div><!--Caixa-->
+    </div><!--Container-hobby-->
+
+    <!--Contatos-->
+    <div class="me-contate" id="contatos">
+        <p>Contato</p>
+        <form method="post"action="mailto:alex_gaiotte@hotmail.com"> <!--Abre Formulario-->
+            <input type="text" placeholder="Digite seu nome" />
+            <input type="email" placeholder="Digite seu e-mail" />
+            <select name="cidade" required>
+              <option value="" selected disabled>Selecione uma cidade</option>
+              <option value="Araruama">Araruama</option>
+              <option value="Armação dos Búzios">Armação dos Búzios</option>
+              <option value="Arraial do Cabo">Arraial do Cabo</option>
+              <option value="Cabo Frio">Cabo Frio</option>
+              <option value="Casimiro de Abreu">Casimiro de Abreu</option>
+              <option value="Iguaba Grande">Iguaba Grande</option>
+              <option value="Macaé">Macaé</option>
+              <option value="Maricá">Maricá</option>
+              <option value="Rio Bonito">Rio Bonito</option>
+              <option value="Rio das Ostras">Rio das Ostras</option>
+              <option value="São Pedro da Aldeia">São Pedro da Aldeia</option>
+              <option value="Saquarema">Saquarema</option>
+              <option value="Silva Jardim">Silva Jardim</option>
+          </select>      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button>Enviar</button>
+            </form> <!--fecha formulario-->
+    </div><!--me-contate-->
+
+    <!--footer--->
+    <footer>
+          <h6>Redes Sociais</h6>
+        <p>Venha conhecer mais sobre mim me seguindos nas Redes-Sociais</p>
+        <div class="Redes-sociais">
+            <a href="https://www.facebook.com/alexsandro.gaiotte?mibextid=ZbWKwL"><img src="./img/facebook.png"></a>
+            <a href="https://instagram.com/a.gaiotte?igshid=MzNlNGNkZWQ4Mg=="><img src="./img/instagram.png"></a>
+            <a href="https://twitter.com/IntankavelLaw"><img src="./img/twitter.png"></a>
+        </div><!--Redes-sociais-->
+        <p class="end">Universidade de Vassouras</p>
+    </footer>
+
+    <!--botão de voltar ao topo-->
+    <button class="bt tp" onclick="scrollToTop()">
+        <img src="./img/827da7a4c9a6.png">
+    </button>
+   
+    <!--javascript-->
+    <script type="script.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+<!--Deixo aqui um agradecimento aos meus colegas que me auxiliaram e puderam me ajudar nas dificuldades que tive no processo de criação deste.-->
